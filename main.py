@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import sys,os,json, re, time
+import sys, os, json, re, time
 assert sys.version_info >= (3,8), "This script requires at least Python 3.8"
 
 first = True
@@ -34,16 +34,26 @@ def update(current, game_desc, choice):
 
     if current == "":
         return current
-    for l in current["links"]:
-        if choice == l["name"].lower():
-            current = find_passage(game_desc, l["pid"])
+
+    if choice.isnumeric():
+        if int(choice) > len(current["links"]) or int(choice) == 0:
+            print("\n\n---------------------\n\nYour input number is invalid to be an index number. Please try again.")
+            time.sleep(1.5)
+        else:
+            current = find_passage(game_desc, current["links"][int(choice) - 1]["pid"])
             if current:
                 return current
-    if first == False:
-        print("\n\n---------------------\n\nI don't understand what you are asking me to do. Please try again.")
-        time.sleep(1)
     else:
-        first = False
+        for l in current["links"]:
+            if choice == l["name"].lower():
+                current = find_passage(game_desc, l["pid"])
+                if current:
+                    return current
+        if first == False:
+            print("\n\n---------------------\n\nI don't understand what you are asking me to do. Please try again.")
+            time.sleep(1.5)
+        else:
+            first = False
     return current
 
 def render(current):

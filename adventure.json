@@ -1,25 +1,25 @@
 {
     "passages": [
       {
-        "text": "You are standing at the end of a road before a small brick building. Around you is a forest.  A small stream flows out of the building and down a gully.\n\n[[Go North->Forest]]\n[[Go East->Building]]\n[[Go South->Valley]]\n[[Go West->Hill]]",
+        "text": "You are standing at the end of a road before a small brick building. Around you is a forest.  A small stream flows out of the building and down a gully.\n\n[ (1)Go North->Forest ]\n[ (2)Go East->Building ]\n[ (3)Go South->Valley ]\n[ (4)Go West->Hill ]",
         "links": [
           {
-            "name": "[1] Go North",
+            "name": "Go North",
             "link": "Forest",
             "pid": "2"
           },
           {
-            "name": "[2] Go East",
+            "name": "Go East",
             "link": "Building",
             "pid": "3"
           },
           {
-            "name": "[3] Go South",
+            "name": "Go South",
             "link": "Valley",
             "pid": "4"
           },
           {
-            "name": "[4 ]Go West",
+            "name": "Go West",
             "link": "Hill",
             "pid": "5"
           }
@@ -32,25 +32,25 @@
         }
       },
       {
-        "text": "You are in open forest, with a deep valley to one side.\n\n[[Go North->Forest]]\n[[Go East->Building]]\n[[Go South->Road]]\n[[Go West->Hill]]",
+        "text": "You are in open forest, with a deep valley to one side.\n\n[ (1)Go North->Forest ]\n[ (2)Go East->Building ]\n[ (3)Go South->Road ]\n[ (4)Go West->Hill ]",
         "links": [
           {
             "name": "Go North",
-            "link": "[1] Forest",
+            "link": "Forest",
             "pid": "2"
           },
           {
-            "name": "[2] Go East",
+            "name": "Go East",
             "link": "Building",
             "pid": "3"
           },
           {
-            "name": "[3] Go South",
+            "name": "Go South",
             "link": "Road",
             "pid": "1"
           },
           {
-            "name": "[4] Go West",
+            "name": "Go West",
             "link": "Hill",
             "pid": "5"
           }
@@ -63,25 +63,25 @@
         }
       },
       {
-        "text": "You are inside a building, a well house for a large spring.\n\n[[Go North->Forest]]\n[[Go East->Building]]\n[[Go South->Valley]]\n[[Go West->Road]]",
+        "text": "You are inside a building, a well house for a large spring.\n\n[ (1)Go North->Forest ]\n[ (2)Go East->Building ]\n[ (3)Go South->Valley ]\n[ (4)Go West->Road ]",
         "links": [
           {
-            "name": "[1] Go North",
+            "name": "Go North",
             "link": "Forest",
             "pid": "2"
           },
           {
-            "name": "[2] Go East",
+            "name": "Go East",
             "link": "Building",
             "pid": "3"
           },
           {
-            "name": "[3] Go South",
+            "name": "Go South",
             "link": "Valley",
             "pid": "4"
           },
           {
-            "name": "[4] Go West",
+            "name": "Go West",
             "link": "Road",
             "pid": "1"
           }
@@ -94,25 +94,25 @@
         }
       },
       {
-        "text": "You are in a valley in the forest beside a stream tumbling along a rocky bed.\n\n[[Go North->Road]]\n[[Go East->Building]]\n[[Go South->Valley]]\n[[Go West->Hill]]",
+        "text": "You are in a valley in the forest beside a stream tumbling along a rocky bed.\n\n[ (1)Go North->Road ]\n[ (2)Go East->Building ]\n[ (3)Go South->Valley ]\n[ (4)Go West->Hill ]",
         "links": [
           {
-            "name": "[1] Go North",
+            "name": "Go North",
             "link": "Road",
             "pid": "1"
           },
           {
-            "name": "[2] Go East",
+            "name": "Go East",
             "link": "Building",
             "pid": "3"
           },
           {
-            "name": "[3] Go South",
+            "name": "Go South",
             "link": "Valley",
             "pid": "4"
           },
           {
-            "name": "[4] Go West",
+            "name": "Go West",
             "link": "Hill",
             "pid": "5"
           }
@@ -125,25 +125,25 @@
         }
       },
       {
-        "text": "You have walked up a hill, still in the forest.  The road slopes back\ndown the other side of the hill.  There is a building in the distance.\n\n[[Go North->Forest]]\n[[Go East->Road]]\n[[Go South->Valley]]\n[[Go West->Hill]]",
+        "text": "You have walked up a hill, still in the forest.  The road slopes back\ndown the other side of the hill.  There is a building in the distance.\n\n[ (1)Go North->Forest ]\n[ (2)Go East->Road ]\n[ (3)Go South->Valley ]\n[ (4)Go West->Hill ]",
         "links": [
           {
-            "name": "[1] Go North",
+            "name": "Go North",
             "link": "Forest",
             "pid": "2"
           },
           {
-            "name": "[2] Go East",
+            "name": "Go East",
             "link": "Road",
             "pid": "1"
           },
           {
-            "name": "[3] Go South",
+            "name": "Go South",
             "link": "Valley",
             "pid": "4"
           },
           {
-            "name": "[4] Go West",
+            "name": "Go West",
             "link": "Hill",
             "pid": "5"
           }
